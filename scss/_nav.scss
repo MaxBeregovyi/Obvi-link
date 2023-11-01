@@ -52,6 +52,7 @@
 
     &__logo {
         margin-bottom: 40px;
+        
     }
 
     &__list {
@@ -59,11 +60,31 @@
 
         &:nth-of-type(1) {
             margin-top: 30px;
+
+            @media screen and (min-width: 768px) {
+                margin-top: 0;
+            }
+        }
+
+        @media screen and (min-width:767px) {
+            display: flex;
+        }
+
+        &_mobile {
+            @media screen and (min-width: 768px) {
+                display: none;
+            }
         }
     }
 
     &__item {
         margin-bottom: 14px;
+
+        @media screen and (min-width: 768px) {
+            margin-bottom: 0;
+            margin-right: 30px;
+
+        }
     }
 
     &__link {
@@ -73,11 +94,13 @@
 
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 767px) {
         display: flex;
         flex-direction: row-reverse;
         background: none;
         position: static;
+        align-items: center;
+        padding: 0;
 
 
     }
