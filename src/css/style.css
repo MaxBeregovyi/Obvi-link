@@ -320,7 +320,7 @@ body {
   font-family: "Source Sans 3", sans-serif;
   font-weight: 300px;
   color: var(--main-color);
-  background-color: orange;
+  background-color: rgb(255, 72, 0);
 }
 
 .center {
@@ -394,7 +394,6 @@ body {
   width: 100%;
   height: 100%;
   left: 0;
-  height: 100vh;
   background-color: #fff;
   padding: 84px 20px 20px;
 }
