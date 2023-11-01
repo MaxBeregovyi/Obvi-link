@@ -1,0 +1,14 @@
+.btn {
+    display: block;
+    text-align: center;
+    background: var(--main-color);
+    color: #fff;
+    min-height: 40px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    width: 100%;
+
+    &_mobile-size {
+        max-width: 120px;
+    }
+}
