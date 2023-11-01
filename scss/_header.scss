@@ -1,0 +1,14 @@
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: block;
+    z-index: 2;
+}
